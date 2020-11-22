@@ -49,5 +49,5 @@
     "typescript": "3.9.7"
   },
   "keywords": [],
-  "description": ""
+  "description": "Creating interactive graphs with national UNFCCC CRF emission data using Angular and visualisation libraries (Highcharts)"
 }

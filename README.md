@@ -1,12 +1,10 @@
 # UNFCCC CRF National Emission Inventory Sunbursts using Angular & Highcharts
 
-Purpose of this repository:
+Purpose of this repository: dreating (possibly interactive) sunburst graphs with national UNFCCC CRF emission data, using Angular and Highcharts.
 
-Creating (possibly interactive) sunburst graphs with national UNFCCC CRF emission data, using Angular and Highcharts.
 Example of Belgian CRF Highcharts sunburst using JSFiddle: https://jsfiddle.net/drckx/busnrpcx/60/show
 
-- Application development url: https://codesandbox.io/s/unfccc-crf-angular-6ks2v
-- Work-in-progress-output: https://6ks2v.csb.app/
+- Application development url: https://codesandbox.io/s/github/floriandierickx/unfccc-crf-angular
 
 # Data sources
 
@@ -20,4 +18,5 @@ Example of Belgian CRF Highcharts sunburst using JSFiddle: https://jsfiddle.net/
 
 ## 2. Documentation
 
+- Angular Material documentation: https://angular.io/tutorial/toh-pt0
 - **Highcharts** integration in Angular app using documentation on https://github.com/highcharts/highcharts-angular

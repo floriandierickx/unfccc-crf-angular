@@ -63,12 +63,16 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    var data = this.crf_data_imported.map(({ id, parent, name, value }) => ({
-      id,
-      parent,
-      name,
-      value
-    }));
+    var data = this.crf_data_imported.map(
+      ({ id, parent, name, value, category_full, NIR_BE_all }) => ({
+        id,
+        parent,
+        name,
+        value,
+        category_full,
+        NIR_BE_all
+      })
+    );
     this.chartData = data;
     this.SetChartOptions();
   }
@@ -82,6 +86,7 @@ export class AppComponent implements OnInit {
         events: {
           load: (e) => {
             this.chart = e.target;
+            // Highcharts.getOptions().colors.splice(0, 0, "transparent"); // Highcharts.getOptions().colors.splice(0, 0, "transparent"); // splice center to color from 1st level --> not working
           }
         }
       },
@@ -99,7 +104,7 @@ export class AppComponent implements OnInit {
         useHTML: true,
         headerFormat: "",
         pointFormat:
-          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.category-full}<br><u>NIR Background</u>: {point.NIR-BE-all}"
+          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.category_full}<br><u>NIR Background</u>: {point.NIR_BE_all}"
       },
       series: [
         {
@@ -112,77 +117,11 @@ export class AppComponent implements OnInit {
             filter: {
               property: "innerArcLength",
               operator: ">",
-              value: 1
+              value: 16
             },
             rotationMode: "circular"
           },
-          levels: this.levelsOptions,
-          point: {
-            events: {
-              click(e) {
-                var currentOptions = this.series.userOptions.levels;
-                var clickedLevel = this.node.level;
-                var idPreviousRoot = 0.0;
-                var rootNode = 0.0;
-
-                if (!isNaN(this.series.idPreviousRoot)) {
-                  idPreviousRoot = parseFloat(this.series.idPreviousRoot);
-                }
-
-                if (!isNaN(this.series.rootNode)) {
-                  rootNode = parseFloat(this.series.rootNode);
-                }
-
-                if (rootNode === 0) {
-                  clickedLevel = 1;
-                }
-
-                if (rootNode !== 0 && idPreviousRoot > rootNode) {
-                  clickedLevel = 2;
-                }
-
-                for (let i of currentOptions) {
-                  if (
-                    i.level === clickedLevel ||
-                    i.level === clickedLevel + 1 ||
-                    i.level === clickedLevel - 1
-                  ) {
-                    i.hidden = false;
-
-                    if (i.level === 1) {
-                      i.levelSize = {
-                        unit: "pixels",
-                        value: 90
-                      };
-                    } else {
-                      i.levelSize = {
-                        value: 1
-                      };
-                    }
-                    if (i.level === 4) {
-                      i.dataLabels = Object.assign({}, i.dataLabels, {
-                        enabled: true
-                      });
-                    }
-                  } else {
-                    i.hidden = true;
-                    i.levelSize = {
-                      value: 0
-                    };
-                    if (i.level === 4) {
-                      i.dataLabels = Object.assign({}, i.dataLabels, {
-                        enabled: false
-                      });
-                    }
-                  }
-                }
-
-                this.update({
-                  levels: currentOptions
-                });
-              }
-            }
-          }
+          levels: this.levelsOptions
         }
       ]
     } as any;
