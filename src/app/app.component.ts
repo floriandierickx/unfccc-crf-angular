@@ -64,12 +64,13 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     var data = this.crf_data_imported.map(
-      ({ id, parent, name, value, category_full, NIR_BE_all }) => ({
+      ({ id, parent, name, value, CRF_full, CRF_description, NIR_BE_all }) => ({
         id,
         parent,
         name,
         value,
-        category_full,
+        CRF_full,
+        CRF_description,
         NIR_BE_all
       })
     );
@@ -103,8 +104,9 @@ export class AppComponent implements OnInit {
       tooltip: {
         useHTML: true,
         headerFormat: "",
+        valueDecimals: 2,
         pointFormat:
-          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.category_full}<br><u>NIR Background</u>: {point.NIR_BE_all}"
+          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg/kt CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.CRF_full}<br><u>UNFCCC CRF Description</u>: {point.CRF_description}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
       },
       series: [
         {

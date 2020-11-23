@@ -19,13 +19,23 @@ Purpose of this repository: dreating (possibly interactive) sunburst graphs with
    - Commit changes to a new branch (pull request)
      - ![alt text](https://i.imgur.com/V7E3RSm.png)
 
+## To do:
+
+- [ ] Add data wrangling info (preferably code) : https://github.com/floriandierickx/unfccc-crf-angular/issues/5
+- [ ] Use all-country all-years EEA dataset and create country- and year-filter feature https://github.com/floriandierickx/unfccc-crf-angular/issues/2
+- [ ] Add line graph with historical emissions per main category https://github.com/floriandierickx/unfccc-crf-angular/issues/3
+- [ ] Add energy production and energy use sunbursts https://github.com/floriandierickx/unfccc-crf-angular/issues/4
+- [ ] Add consumption-based emissions for comparison https://github.com/floriandierickx/unfccc-crf-angular/issues/7
+
 # Data sources
 
 ## Used:
 
 - Hierarchical UNFCCC CRF data provided by EEA: https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-16
+- UNFCCC CRF category defitions from Johannes Gütschow: https://twitter.com/JoGuetschow/status/1330854682743484419?s=20
+- Belgian National Inventory Report category information (work in progress): http://cdr.eionet.europa.eu/be/eu/mmr/art07_inventory/ghg_inventory/envxpvoyw/
 
-## Interesting for future use:
+## Interesting for future:
 
 - More fine-grained breakdown of UNFCCC CRF emissions: @mikapfl and @openclimatedata (and a tiny little bit @floriandierickx :)) [read_di_unfccc](https://github.com/mikapfl/read_di_unfccc) data from UNFCCC API
 - IEA energy production and use data for energy sunbursts

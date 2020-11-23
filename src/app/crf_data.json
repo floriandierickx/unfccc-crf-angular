@@ -4,7 +4,8 @@
     "name": "Belgium",
     "parent": "",
     "value": null,
-    "category_full": "",
+    "CRF_full": "",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -12,7 +13,8 @@
     "name": "Energy",
     "parent": "0",
     "value": 85559.90018,
-    "category_full": "1 - Energy",
+    "CRF_full": "1 - Energy",
+    "CRF_description": " This category includes all GHG emissions arising from combustion and fugitive releases of fuels. Emissions from the non-energy uses of fuels are generally not included here, but reported under Industrial Processes and Product Use Sector.",
     "NIR_BE_all": ""
   },
   {
@@ -20,7 +22,8 @@
     "name": "Industrial Processes and Product Use",
     "parent": "0",
     "value": 21554.76202,
-    "category_full": "2 - Industrial Processes and Product Use",
+    "CRF_full": "2 - Industrial Processes and Product Use",
+    "CRF_description": "Emissions from industrial processes and product use, excluding those related to energy combustion (reported under 1A), extraction, processing and transport of fuels (reported under 1B) and CO 2 transport, injection and storage (reported under 1C).",
     "NIR_BE_all": ""
   },
   {
@@ -28,7 +31,8 @@
     "name": "Agriculture",
     "parent": "0",
     "value": 9960.87739,
-    "category_full": "3 - Agriculture",
+    "CRF_full": "3 - Agriculture",
+    "CRF_description": "Emissions and removals from forest land, cropland, grassland, wetlands, settlements, and other land. Also includes emissions from livestock and manure management, emissions from managed soils, and emissions from liming and urea application. Methods to estimate annual harvested wood product (HWP) variables are also covered in this category.",
     "NIR_BE_all": ""
   },
   {
@@ -36,7 +40,8 @@
     "name": "Livestock",
     "parent": "3",
     "value": 6488.67201,
-    "category_full": "3.1 - Livestock",
+    "CRF_full": "3.1 - Livestock",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -44,7 +49,8 @@
     "name": "Waste management",
     "parent": "0",
     "value": 1380.19844,
-    "category_full": "5 - Waste management",
+    "CRF_full": "5 - Waste management",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -52,31 +58,35 @@
     "name": "Energy Industries",
     "parent": "1.AA",
     "value": 20025.69762,
-    "category_full": "1.A.1 - Energy Industries",
-    "NIR_BE_all": "- The energy industries contain the following sectors: the public electricity and heat production, petroleum refining and the manufacture of solid fuels and other energy industries [NIR p.92]"
+    "CRF_full": "1.A.1 - Energy Industries",
+    "CRF_description": "Comprises emissions from fuels combusted by the fuel\nextraction or energy-producing industries.",
+    "NIR_BE_all": "<br>- The energy industries contain the following sectors: the public electricity and heat production, petroleum refining and the manufacture of solid fuels and other energy industries [NIR p.92]"
   },
   {
     "id": "1.A.1.a",
     "name": "Public Electricity and Heat Production",
     "parent": "1.A.1",
     "value": 15292.45946,
-    "category_full": "1.A.1.a - Public Electricity and Heat Production",
-    "NIR_BE_all": "- The category 1A1a (Public Electricity and Heat production) includes fuel combustion emissions associated with the generation of electricity for commercial, industrial or public sale [NIR p. 92]\n- Some CHP (Combined Heat and Power) units are in joint venture with the energy sector, in which all heat is delivered to the industrial plant and most electricity produced, is sold to the energy sector. In these cases, all fuel in the energy balance is included in the energy sector, category 1A1a. [NIR p. 92]\n- The activity data reported in this sector are the fuel consumption data as reported in the regional energy balances (see section 3.2.1.). This category contains the power installations for the production of electricity and heat and the combined heat-power installations (in joint venture with the electricity producers). These installations are located in different sectors in Belgium (refineries, industry, agriculture and service sector). Also included in this sector are the waste incineration installations with energy recuperation (waste incineration installations without energy recuperation are allocated in the sector 5C waste incineration, see chapter 7). Since 2005 all waste incineration plants in the Flemish region produce electricity. In Brussels, there is only one waste incineration installation with energy recuperation; the last waste incineration installation without energy recuperation was closed in 1998 [NIR p. 92]\n- Emissions of blast furnace gas produced in the iron and steel companies and delivered to the electric power installations are also put in this category 1A1a consistent with the reporting in the regional energy balances. Since 2017 no longer coal is consumed in this category in the Flemish region. Consequently, only the use of blast furnace gas is reported in this category under �solid fuels�. [NIR p. 92]"
+    "CRF_full": "1.A.1.a - Public Electricity and Heat Production",
+    "CRF_description": "Sum of emissions from main activity producers of electricity generation, combined heat and power generation, and heat plants. Main activity producers (formerly known as public utilities) are defined as those undertakings whose primary activity is to supply the public. They may be in public or private ownership. Emissions from own on-site use of fuel should be included. Emissions from autoproducers (undertakings which generate electricity/heat wholly or  partly for their own use, as an activity that supports their primary activity) should be assigned to the sector where they were generated and not under 1 A 1 a. Autoproducers may be in public or private ownership.",
+    "NIR_BE_all": "<br>- The category 1A1a (Public Electricity and Heat production) includes fuel combustion emissions associated with the generation of electricity for commercial, industrial or public sale [NIR p. 92]\n<br>- Some CHP (Combined Heat and Power) units are in joint venture with the energy sector, in which all heat is delivered to the industrial plant and most electricity produced, is sold to the energy sector. In these cases, all fuel in the energy balance is included in the energy sector, category 1A1a. [NIR p. 92]\n<br>- The activity data reported in this sector are the fuel consumption data as reported in the regional energy balances (see section 3.2.1.). This category contains the power installations for the production of electricity and heat and the combined heat-power installations (in joint venture with the electricity producers). These installations are located in different sectors in Belgium (refineries, industry, agriculture and service sector). Also included in this sector are the waste incineration installations with energy recuperation (waste incineration installations without energy recuperation are allocated in the sector 5C waste incineration, see chapter 7). Since 2005 all waste incineration plants in the Flemish region produce electricity. In Brussels, there is only one waste incineration installation with energy recuperation; the last waste incineration installation without energy recuperation was closed in 1998 [NIR p. 92]\n<br>- Emissions of blast furnace gas produced in the iron and steel companies and delivered to the electric power installations are also put in this category 1A1a consistent with the reporting in the regional energy balances. Since 2017 no longer coal is consumed in this category in the Flemish region. Consequently, only the use of blast furnace gas is reported in this category under �solid fuels�. [NIR p. 92]"
   },
   {
     "id": "1.A.1.b",
     "name": "Petroleum Refining",
     "parent": "1.A.1",
     "value": 4577.36436,
-    "category_full": "1.A.1.b - Petroleum Refining",
-    "NIR_BE_all": "- The emissions of CO2 and N2O of the refineries, an activity which takes place only in the Flemish region, are allocated in the category 1A1b [NIR p. 92]"
+    "CRF_full": "1.A.1.b - Petroleum Refining",
+    "CRF_description": "All combustion activities supporting the refining of petroleum products including on-site combustion for the generation of electricity and heat for own use. Does not include evaporative emissions occurring at the refinery. These emissions should be reported separately under 1 B 2 a.",
+    "NIR_BE_all": "<br>- The emissions of CO2 and N2O of the refineries, an activity which takes place only in the Flemish region, are allocated in the category 1A1b [NIR p. 92]"
   },
   {
     "id": "1.A.1.c",
     "name": "Manufacture of Solid Fuels and Other Energy Industries",
     "parent": "1.A.1",
     "value": 155.87379,
-    "category_full": "1.A.1.c - Manufacture of Solid Fuels and Other Energy Industries",
+    "CRF_full": "1.A.1.c - Manufacture of Solid Fuels and Other Energy Industries",
+    "CRF_description": "Combustion emissions from fuel use during the manufacture of secondary and tertiary products from solid fuels including production of charcoal. Emissions from own on-site fuel use should be included. Also includes combustion for the generation of electricity and heat for own use in these industries.",
     "NIR_BE_all": ""
   },
   {
@@ -84,7 +94,8 @@
     "name": "Manufacturing Industries and Construction",
     "parent": "1.AA",
     "value": 13810.89477,
-    "category_full": "1.A.2 - Manufacturing Industries and Construction",
+    "CRF_full": "1.A.2 - Manufacturing Industries and Construction",
+    "CRF_description": "Emissions from combustion of fuels in industry. Also includes combustion for the generation of electricity and heat for own use in these industries. Emissions from fuel combustion in coke ovens within the iron and steel industry should be reported under 1 A 1 c and not within manufacturing industry. Emissions from the industry sector should be specified by sub-categories that correspond to the International Standard Industrial Classification of all Economic Activities (ISIC). Energy used for transport by industry should not be reported here but under Transport (1 A 3). Emissions arising from off-road and other mobile machinery in industry should, if possible, be broken out as  a separate subcategory. For each country, the emissions from the largest fuel-consuming industrial categories ISIC should be reported, as well as those from significant emitters of pollutants. A suggested list of categories is outlined below.",
     "NIR_BE_all": ""
   },
   {
@@ -92,7 +103,8 @@
     "name": "Iron and Steel",
     "parent": "1.A.2",
     "value": 1355.1308,
-    "category_full": "1.A.2.a - Iron and Steel",
+    "CRF_full": "1.A.2.a - Iron and Steel",
+    "CRF_description": "ISIC Group 271 and Class 2731. (in ISIC 4: 241 and 2431)",
     "NIR_BE_all": ""
   },
   {
@@ -100,7 +112,8 @@
     "name": "Non-Ferrous Metals",
     "parent": "1.A.2",
     "value": 491.28632,
-    "category_full": "1.A.2.b - Non-Ferrous Metals",
+    "CRF_full": "1.A.2.b - Non-Ferrous Metals",
+    "CRF_description": "ISIC Group 272 and Class 2732. (in ISIC 4: 2420 and 2432)",
     "NIR_BE_all": ""
   },
   {
@@ -108,7 +121,8 @@
     "name": "Chemicals",
     "parent": "1.A.2",
     "value": 3651.41156,
-    "category_full": "1.A.2.c - Chemicals",
+    "CRF_full": "1.A.2.c - Chemicals",
+    "CRF_description": "ISIC Division 24. (in ISIC 4: approximately 20,but also 1910, 3821, 2100, 3250, 1079, 2610, 2680, 2817)",
     "NIR_BE_all": ""
   },
   {
@@ -116,7 +130,8 @@
     "name": "Pulp, Paper and Print",
     "parent": "1.A.2",
     "value": 526.03418,
-    "category_full": "1.A.2.d - Pulp, Paper and Print",
+    "CRF_full": "1.A.2.d - Pulp, Paper and Print",
+    "CRF_description": "ISIC Divisions 21 and 22. (in ISIC 4: approximately 17, 18, but also 2220, 3290, 5811, 5812, 5813, 5920, 5813, 5819)",
     "NIR_BE_all": ""
   },
   {
@@ -124,7 +139,8 @@
     "name": "Food Processing, Beverages and Tobacco",
     "parent": "1.A.2",
     "value": 2378.34734,
-    "category_full": "1.A.2.e - Food Processing, Beverages and Tobacco",
+    "CRF_full": "1.A.2.e - Food Processing, Beverages and Tobacco",
+    "CRF_description": "ISIC Divisions 15 and 16. (in ISIC 4: approximately 10, 11, 12, but also 3530, 2011)",
     "NIR_BE_all": ""
   },
   {
@@ -132,7 +148,8 @@
     "name": "Non-metallic minerals",
     "parent": "1.A.2",
     "value": 3524.82268,
-    "category_full": "1.A.2.f - Non-metallic minerals",
+    "CRF_full": "1.A.2.f - Non-metallic minerals",
+    "CRF_description": "Includes products such as glass ceramic, cement, etc. ISIC Division 26. (in ISIC 4: approximately 23 but also 3319, 1312, 3290, 3319)",
     "NIR_BE_all": ""
   },
   {
@@ -140,7 +157,8 @@
     "name": "Other Manufacturing Industries and Constructions",
     "parent": "1.A.2",
     "value": 1883.8619,
-    "category_full": "1.A.2.g - Other Manufacturing Industries and Constructions",
+    "CRF_full": "1.A.2.g - Other Manufacturing Industries and Constructions",
+    "CRF_description": "ISIC Divisions 34 and 35. (in ISIC4: approximately 29, 30, but also subsectors of 28 for parts and 33 for repair)",
     "NIR_BE_all": ""
   },
   {
@@ -148,7 +166,8 @@
     "name": "Transport",
     "parent": "1.AA",
     "value": 26251.17948,
-    "category_full": "1.A.3 - Transport",
+    "CRF_full": "1.A.3 - Transport",
+    "CRF_description": "Emissions from the combustion and evaporation of fuel for all transport activity (excluding military transport), regardless of the sector, specified by sub-categories below. Emissions from fuel sold to any air or marine vessel engaged in international transport (1 A 3 a i and 1 A 3 d i) should as far as possible be excluded from the totals and subtotals in this category and should be reported separately.",
     "NIR_BE_all": ""
   },
   {
@@ -156,23 +175,26 @@
     "name": "Domestic Aviation",
     "parent": "1.A.3",
     "value": 21.50421,
-    "category_full": "1.A.3.a - Domestic Aviation",
-    "NIR_BE_all": "- No civil aviation (1A3a) takes place in the Brussels region, the Brussels national airport is located on the Flemish territory [NIR p.109]"
+    "CRF_full": "1.A.3.a - Domestic Aviation",
+    "CRF_description": "Emissions from international and domestic civil aviation, including take-offs and landings. Comprises civil commercial use of airplanes, including: scheduled and charter traffic for passengers and freight, air taxiing, and general aviation. The international/domestic split should be determined on the basis of departure and landing locations for each flight stage and not by the nationality of the airline. Exclude use of fuel at airports for ground transport which is reported under 1 A 3 e Other Transportation. Also exclude fuel for stationary combustion at airports; report this information under the appropriate stationary combustion category.",
+    "NIR_BE_all": "<br>- No civil aviation (1A3a) takes place in the Brussels region, the Brussels national airport is located on the Flemish territory [NIR p.109]"
   },
   {
     "id": "1.A.3.b",
     "name": "Road Transportation",
     "parent": "1.A.3",
     "value": 25345.83472,
-    "category_full": "1.A.3.b - Road Transportation",
-    "NIR_BE_all": "- Estimation of CO2 emissions from road transport (1A3b) is based on fuels sold, in combination with emission factors from the COPERT 5 model, version 5.3.0 (15). During the 2020 submission, this version of the model was an update of the COPERT 4 model that was used before. The federal petroleum balance is the source of these activity data (fuels sold). As a result of the UNFCCC in-country review in September 2012, the emissions of CH4 and N2O are also calculated according the 'fuel sold' principle since the 29th October 2012 submission [NIR p.109]\n- Methodological issues: Activity data = Federal energy statistics (fuels sold), Methodology emissions CO2 = Emission factors COPERT 5.3.0, Methodology emissions CH4 and N2O = Regional results from Copert models with correction fuel sold/fuel used. [NIR p.110]"
+    "CRF_full": "1.A.3.b - Road Transportation",
+    "CRF_description": "All combustion and evaporative emissions arising from fuel use in road vehicles, including the use of agricultural vehicles on paved roads.",
+    "NIR_BE_all": "<br>- Estimation of CO2 emissions from road transport (1A3b) is based on fuels sold, in combination with emission factors from the COPERT 5 model, version 5.3.0 (15). During the 2020 submission, this version of the model was an update of the COPERT 4 model that was used before. The federal petroleum balance is the source of these activity data (fuels sold). As a result of the UNFCCC in-country review in September 2012, the emissions of CH4 and N2O are also calculated according the 'fuel sold' principle since the 29th October 2012 submission [NIR p.109]\n<br>- Methodological issues: Activity data = Federal energy statistics (fuels sold), Methodology emissions CO2 = Emission factors COPERT 5.3.0, Methodology emissions CH4 and N2O = Regional results from Copert models with correction fuel sold/fuel used. [NIR p.110]"
   },
   {
     "id": "1.A.3.b.i",
     "name": "Cars",
     "parent": "1.A.3.b",
     "value": 14411.78043,
-    "category_full": "1.A.3.b.i - Cars",
+    "CRF_full": "1.A.3.b.i - Cars",
+    "CRF_description": "Emissions from automobiles so designated in the vehicle registering country primarily for transport of persons and normally having a capacity of 12 persons or fewer.",
     "NIR_BE_all": ""
   },
   {
@@ -180,7 +202,8 @@
     "name": "Light duty trucks",
     "parent": "1.A.3.b",
     "value": 3350.8099,
-    "category_full": "1.A.3.b.ii - Light duty trucks",
+    "CRF_full": "1.A.3.b.ii - Light duty trucks",
+    "CRF_description": "Emissions from vehicles so designated in the vehicle registering country primarily for transportation of light- weight cargo or which are equipped with special features such as four-wheel drive for off-road operation. The gross vehicle weight normally ranges up to 3500-3900 kg or less.",
     "NIR_BE_all": ""
   },
   {
@@ -188,7 +211,8 @@
     "name": "Heavy duty trucks and buses",
     "parent": "1.A.3.b",
     "value": 7416.57064,
-    "category_full": "1.A.3.b.iii - Heavy duty trucks and buses",
+    "CRF_full": "1.A.3.b.iii - Heavy duty trucks and buses",
+    "CRF_description": "Emissions from any vehicles so designated in the vehicle registering country. Normally the gross vehicle weight ranges from 3500-3900 kg or more for heavy duty trucks and the buses are rated to carry more than 12 persons.",
     "NIR_BE_all": ""
   },
   {
@@ -196,7 +220,8 @@
     "name": "Motorcycles",
     "parent": "1.A.3.b",
     "value": 165.9397,
-    "category_full": "1.A.3.b.iv - Motorcycles",
+    "CRF_full": "1.A.3.b.iv - Motorcycles",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -204,7 +229,8 @@
     "name": "Other Road Transportation",
     "parent": "1.A.3.b",
     "value": 0.73405,
-    "category_full": "1.A.3.b.v - Other Road Transportation",
+    "CRF_full": "1.A.3.b.v - Other Road Transportation",
+    "CRF_description": "Evaporative emissions from vehicles (e.g. hot soak, running losses) are included here. Emissions from loading fuel into vehicles are excluded.",
     "NIR_BE_all": ""
   },
   {
@@ -212,7 +238,8 @@
     "name": "Railways",
     "parent": "1.A.3",
     "value": 78.67825,
-    "category_full": "1.A.3.c - Railways",
+    "CRF_full": "1.A.3.c - Railways",
+    "CRF_description": "Emissions from railway transport for both freight and passenger traffic routes.",
     "NIR_BE_all": ""
   },
   {
@@ -220,23 +247,26 @@
     "name": "Domestic Navigation",
     "parent": "1.A.3",
     "value": 404.8645,
-    "category_full": "1.A.3.d - Domestic Navigation",
-    "NIR_BE_all": "- Sea navigation (1A3d) takes only place in the Flemish region. This category exists of inland navigation and sea navigation (domestic part). Emissions of international maritime (only Flemish region) and aviation bunkers (Flemish and Walloon region) are allocated to the category �memo items�. [NIR p.109]"
+    "CRF_full": "1.A.3.d - Domestic Navigation",
+    "CRF_description": "Emissions from fuels used to propel water-borne vessels, including hovercraft and hydrofoils, but excluding fishing vessels. The international/domestic split should be determined on the basis of port of departure and port of arrival, and not by the flag or nationality of the ship.",
+    "NIR_BE_all": "<br>- Sea navigation (1A3d) takes only place in the Flemish region. This category exists of inland navigation and sea navigation (domestic part). Emissions of international maritime (only Flemish region) and aviation bunkers (Flemish and Walloon region) are allocated to the category �memo items�. [NIR p.109]"
   },
   {
     "id": "1.A.3.e",
     "name": "Other Transportation",
     "parent": "1.A.3",
     "value": 400.2978,
-    "category_full": "1.A.3.e - Other Transportation",
-    "NIR_BE_all": "- In the category 1A3e the emissions are allocated originating from the energy needed to transport the natural gas through pipelines (1A3ei) as well as the off-road emissions from the categories harbours, airports and transhipment companies (1A3eii). [NIR p.109]"
+    "CRF_full": "1.A.3.e - Other Transportation",
+    "CRF_description": "Combustion emissions from all remaining transport activities including pipeline transportation, ground activities in airports and harbours, and off-road activities not otherwise reported under 1 A 4 c Agriculture or 1 A 2. Manufacturing Industries and Construction. Military transport should be reported under 1 A 5 (see 1 A 5 Non- specified).",
+    "NIR_BE_all": "<br>- In the category 1A3e the emissions are allocated originating from the energy needed to transport the natural gas through pipelines (1A3ei) as well as the off-road emissions from the categories harbours, airports and transhipment companies (1A3eii). [NIR p.109]"
   },
   {
     "id": "1.A.4",
     "name": "Other Sectors",
     "parent": "1.AA",
     "value": 24704.9014,
-    "category_full": "1.A.4 - Other Sectors",
+    "CRF_full": "1.A.4 - Other Sectors",
+    "CRF_description": "Emissions from combustion activities as described below, including combustion for the generation of electricity and heat for own use in these sectors",
     "NIR_BE_all": ""
   },
   {
@@ -244,7 +274,8 @@
     "name": "Commercial/Institutional",
     "parent": "1.A.4",
     "value": 5736.72146,
-    "category_full": "1.A.4.a - Commercial/Institutional",
+    "CRF_full": "1.A.4.a - Commercial/Institutional",
+    "CRF_description": "Emissions from fuel combustion in commercial and institutional buildings; all activities included in ISIC Divisions 41,50, 51, 52, 55, 63-67, 70-75, 80, 85, 90-93 and 99.",
     "NIR_BE_all": ""
   },
   {
@@ -252,7 +283,8 @@
     "name": "Residential",
     "parent": "1.A.4",
     "value": 16587.50653,
-    "category_full": "1.A.4.b - Residential",
+    "CRF_full": "1.A.4.b - Residential",
+    "CRF_description": "All emissions from fuel combustion in households.",
     "NIR_BE_all": ""
   },
   {
@@ -260,7 +292,8 @@
     "name": "Agriculture/Forestry/Fishing",
     "parent": "1.A.4",
     "value": 2380.67341,
-    "category_full": "1.A.4.c - Agriculture/Forestry/Fishing",
+    "CRF_full": "1.A.4.c - Agriculture/Forestry/Fishing",
+    "CRF_description": "Emissions from fuel combustion in agriculture, forestry, fishing and fishing industries such as fish farms. Activities included in ISIC Divisions 01, 02 and 05. Highway agricultural transportation is excluded.",
     "NIR_BE_all": ""
   },
   {
@@ -268,7 +301,8 @@
     "name": "Other Other Sectors",
     "parent": "1.AA",
     "value": 107.32311,
-    "category_full": "1.A.5 - Other Other Sectors",
+    "CRF_full": "1.A.5 - Other Other Sectors",
+    "CRF_description": "All remaining emissions from fuel combustion that are not specified elsewhere. Include emissions from fuel delivered to the military in the country and delivered to the military of other countries that are not engaged in multilateral operations Emissions from fuel sold to any air or marine vessel engaged in multilateral operation pursuant to the Charter of the United Nations should be excluded from the totals and subtotals of the military transport, and should be reported separately.",
     "NIR_BE_all": ""
   },
   {
@@ -276,15 +310,17 @@
     "name": "Mobile",
     "parent": "1.A.5",
     "value": 107.32311,
-    "category_full": "1.A.5.b - Mobile",
-    "NIR_BE_all": "- Emissions of the military aviation are allocated to the category 1A5b [NIR p.109]"
+    "CRF_full": "1.A.5.b - Mobile",
+    "CRF_description": "Emissions from vehicles and other machinery, marine and aviation (not included in 1 A 4 c ii or elsewhere).",
+    "NIR_BE_all": "<br>- Emissions of the military aviation are allocated to the category 1A5b [NIR p.109]"
   },
   {
     "id": "1.AA",
     "name": "Fuel Combustion - Sectoral approach",
     "parent": "1",
     "value": 84899.99638,
-    "category_full": "1.AA - Fuel Combustion - Sectoral approach",
+    "CRF_full": "1.AA - Fuel Combustion - Sectoral approach",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -292,7 +328,8 @@
     "name": "Fugitive Emissions from Fuels",
     "parent": "1",
     "value": 659.9038,
-    "category_full": "1.B - Fugitive Emissions from Fuels",
+    "CRF_full": "1.B - Fugitive Emissions from Fuels",
+    "CRF_description": "Includes all intentional and unintentional emissions from the extraction, processing, storage and transport of fuel to the point of final use.",
     "NIR_BE_all": ""
   },
   {
@@ -300,7 +337,8 @@
     "name": "Solid Fuels",
     "parent": "1.B",
     "value": 40.7025,
-    "category_full": "1.B.1 - Solid Fuels",
+    "CRF_full": "1.B.1 - Solid Fuels",
+    "CRF_description": "Includes all intentional and unintentional emissions from the extraction, processing, storage and transport of fuel to the point of final use.",
     "NIR_BE_all": ""
   },
   {
@@ -308,15 +346,17 @@
     "name": "Oil and Natural Gas and Other Emissions from Energy Production",
     "parent": "1.B",
     "value": 619.2013,
-    "category_full": "1.B.2 - Oil and Natural Gas and Other Emissions from Energy Production",
-    "NIR_BE_all": "- The emissions of CH4 of the refineries are allocated to category 1B2a (oil) because a large part of these emissions have a diffuse character (the flaring emissions are also included in this sector) [NIR p.92]"
+    "CRF_full": "1.B.2 - Oil and Natural Gas and Other Emissions from Energy Production",
+    "CRF_description": "Comprises fugitive emissions from all oil and natural gas activities. The primary sources of these emissions may include fugitive equipment leaks, evaporation losses, venting, flaring and accidental releases.",
+    "NIR_BE_all": "<br>- The emissions of CH4 of the refineries are allocated to category 1B2a (oil) because a large part of these emissions have a diffuse character (the flaring emissions are also included in this sector) [NIR p.92]"
   },
   {
     "id": "2.A",
     "name": "Mineral Industry",
     "parent": "2",
     "value": 4451.43078,
-    "category_full": "2.A - Mineral Industry",
+    "CRF_full": "2.A - Mineral Industry",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -324,7 +364,8 @@
     "name": "Cement Production",
     "parent": "2.A",
     "value": 2534.3833,
-    "category_full": "2.A.1 - Cement Production",
+    "CRF_full": "2.A.1 - Cement Production",
+    "CRF_description": "Process-related emissions from the production of various types of cement (ISIC: D2694, ISIC 4: 2394).",
     "NIR_BE_all": ""
   },
   {
@@ -332,7 +373,8 @@
     "name": "Lime Production",
     "parent": "2.A",
     "value": 1562.95654,
-    "category_full": "2.A.2 - Lime Production",
+    "CRF_full": "2.A.2 - Lime Production",
+    "CRF_description": "Process-related emissions from the production of various types of lime (ISIC: D2694, ISIC 4: 2394).",
     "NIR_BE_all": ""
   },
   {
@@ -340,7 +382,8 @@
     "name": "Glass production",
     "parent": "2.A",
     "value": 168.66545,
-    "category_full": "2.A.3 - Glass production",
+    "CRF_full": "2.A.3 - Glass production",
+    "CRF_description": "Process-related emissions from the production of various types of glass (ISIC: D2610, ISIC 4: 2310, 3319).",
     "NIR_BE_all": ""
   },
   {
@@ -348,7 +391,8 @@
     "name": "Other Process Uses of Carbonates",
     "parent": "2.A",
     "value": 185.42549,
-    "category_full": "2.A.4 - Other Process Uses of Carbonates",
+    "CRF_full": "2.A.4 - Other Process Uses of Carbonates",
+    "CRF_description": "Includes limestone, dolomite and other carbonates etc. Emissions from the use of limestone, dolomite and other carbonates should be included in the industrial source category where they are emitted. Therefore, for example, where a carbonate is used as a flux for iron and steel production, resultant emissions should be reported under 2C1 �Iron and Steel Production� rather than this subcategory.",
     "NIR_BE_all": ""
   },
   {
@@ -356,7 +400,8 @@
     "name": "Chemical Industry",
     "parent": "2",
     "value": 9686.40819,
-    "category_full": "2.B - Chemical Industry",
+    "CRF_full": "2.B - Chemical Industry",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -364,7 +409,8 @@
     "name": "Ammonia Production",
     "parent": "2.B",
     "value": 1145.73254,
-    "category_full": "2.B.1 - Ammonia Production",
+    "CRF_full": "2.B.1 - Ammonia Production",
+    "CRF_description": "Ammonia (NH 3 ) is a major industrial chemical and the most important nitrogenous material produced. Ammonia gas is used directly as a fertilizer, in heat treating, paper pulping, nitric acid and nitrates manufacture, nitric acid ester and nitro compound manufacture, explosives of various types, and as a refrigerant. Amines, amides, and miscellaneous other organic compounds, such as urea, are made from ammonia. The main greenhouse gas emitted from NH 3 production is CO 2 . CO 2 used in the production of urea, a downstream process, should be subtracted from the CO 2 generated and accounted for in the AFOLU Sector.",
     "NIR_BE_all": ""
   },
   {
@@ -372,7 +418,8 @@
     "name": "Other chemical industry",
     "parent": "2.B",
     "value": 2062.89617,
-    "category_full": "2.B.10 - Other chemical industry",
+    "CRF_full": "2.B.10 - Other chemical industry",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -380,7 +427,8 @@
     "name": "Nitric Acid Production",
     "parent": "2.B",
     "value": 253.79087,
-    "category_full": "2.B.2 - Nitric Acid Production",
+    "CRF_full": "2.B.2 - Nitric Acid Production",
+    "CRF_description": "Nitric acid is used as a raw material mainly in the manufacture of nitrogenous-based fertiliser. Nitric acid may also be used in the production of adipic acid and explosives (e.g., dynamite), for metal etching and in the processing of ferrous metals. The main greenhouse gas emitted from HNO 3 production is nitrous oxide.",
     "NIR_BE_all": ""
   },
   {
@@ -388,7 +436,8 @@
     "name": "Caprolactam, Glyoxal and Glyoxylic Acid Production",
     "parent": "2.B",
     "value": 535.3272,
-    "category_full": "2.B.4 - Caprolactam, Glyoxal and Glyoxylic Acid Production",
+    "CRF_full": "2.B.4 - Caprolactam, Glyoxal and Glyoxylic Acid Production",
+    "CRF_description": "Most of the annual production of caprolactam (NH(CH 2 ) 5 CO) is consumed as the monomer for nylon-6 fibres and plastics, with a substantial proportion of the fibre used in carpet manufacturing. All commercial processes for the manufacture of caprolactam are based on either toluene or benzene. This subcategory also covers production of glyoxal (ethanedial) and glyoxylic acid production. The main greenhouse gas emitted from this subcategory is nitrous oxide.",
     "NIR_BE_all": ""
   },
   {
@@ -396,7 +445,8 @@
     "name": "Petrochemical and Carbon Black Production",
     "parent": "2.B",
     "value": 3948.68749,
-    "category_full": "2.B.8 - Petrochemical and Carbon Black Production",
+    "CRF_full": "2.B.8 - Petrochemical and Carbon Black Production",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -404,7 +454,8 @@
     "name": "Fluorochemical Production",
     "parent": "2.B",
     "value": 1739.97393,
-    "category_full": "2.B.9 - Fluorochemical Production",
+    "CRF_full": "2.B.9 - Fluorochemical Production",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -412,7 +463,8 @@
     "name": "Metal Industry",
     "parent": "2",
     "value": 4250.65417,
-    "category_full": "2.C - Metal Industry",
+    "CRF_full": "2.C - Metal Industry",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -420,7 +472,8 @@
     "name": "Iron and Steel Production",
     "parent": "2.C",
     "value": 4138.5789,
-    "category_full": "2.C.1 - Iron and Steel Production",
+    "CRF_full": "2.C.1 - Iron and Steel Production",
+    "CRF_description": "Carbon dioxide is the predominant gas emitted from the production of iron and steel. The sources of the carbon dioxide emissions include that from carbon-containing reducing agents such as coke and pulverized coal, and, from minerals such as limestone and dolomite added.",
     "NIR_BE_all": ""
   },
   {
@@ -428,7 +481,8 @@
     "name": "Other Metal Industry",
     "parent": "2.C",
     "value": 112.07527,
-    "category_full": "2.C.7 - Other Metal Industry",
+    "CRF_full": "2.C.7 - Other Metal Industry",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -436,7 +490,8 @@
     "name": "Non-energy Products from Fuels and Solvent Use",
     "parent": "2",
     "value": 124.34512,
-    "category_full": "2.D - Non-energy Products from Fuels and Solvent Use",
+    "CRF_full": "2.D - Non-energy Products from Fuels and Solvent Use",
+    "CRF_description": "The use of oil products and coal-derived oils primarily intended for purposes other than combustion.",
     "NIR_BE_all": ""
   },
   {
@@ -444,7 +499,8 @@
     "name": "Lubricant Use",
     "parent": "2.D",
     "value": 83.70308,
-    "category_full": "2.D.1 - Lubricant Use",
+    "CRF_full": "2.D.1 - Lubricant Use",
+    "CRF_description": "Lubricating oils, heat transfer oils, cutting oils and greases.",
     "NIR_BE_all": ""
   },
   {
@@ -452,7 +508,8 @@
     "name": "Paraffin Wax Use",
     "parent": "2.D",
     "value": 10.37696,
-    "category_full": "2.D.2 - Paraffin Wax Use",
+    "CRF_full": "2.D.2 - Paraffin Wax Use",
+    "CRF_description": "Oil-derived waxes such as petroleum jelly, paraffin waxes and other waxes.",
     "NIR_BE_all": ""
   },
   {
@@ -460,7 +517,8 @@
     "name": "Other non energy products",
     "parent": "2.D",
     "value": 30.26508,
-    "category_full": "2.D.3 - Other non energy products",
+    "CRF_full": "2.D.3 - Other non energy products",
+    "CRF_description": "NMVOC emissions from solvent use e.g. in paint application, degreasing and dry cleaning should be contained here. Emissions from the use of HFCs and PFCs as solvents should be reported under 2F5",
     "NIR_BE_all": ""
   },
   {
@@ -468,7 +526,8 @@
     "name": "Electronics Industry",
     "parent": "2",
     "value": 20.66831,
-    "category_full": "2.E - Electronics Industry",
+    "CRF_full": "2.E - Electronics Industry",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -476,7 +535,8 @@
     "name": "Integrated Circuit or Semiconductor",
     "parent": "2.E",
     "value": 20.55293,
-    "category_full": "2.E.1 - Integrated Circuit or Semiconductor",
+    "CRF_full": "2.E.1 - Integrated Circuit or Semiconductor",
+    "CRF_description": "Emissions of CF4, C 2 F 6 , C 3 F 8 , c-C 4 F 8 , C 4 F 6 , C 4 F 8 O, C 5 F 8 , CHF 3 , CH 2 F 2 , NF 3 and SF 6 from uses of these gases in Integrated Circuit (IC) manufacturing in rapidly evolving ways and in varying amounts, which depend on product (e.g., memory or logic devices) and equipment manufacturer.",
     "NIR_BE_all": ""
   },
   {
@@ -484,7 +544,8 @@
     "name": "Heat Transfer Fluid",
     "parent": "2.E",
     "value": 0.11539,
-    "category_full": "2.E.4 - Heat Transfer Fluid",
+    "CRF_full": "2.E.4 - Heat Transfer Fluid",
+    "CRF_description": "Heat transfer fluids, which include several fully fluorinated carbon compounds (either in pure form or in mixtures) with six or more carbon atoms, used and emitted during IC manufacture, testing and assembly. They are used in chillers, temperature shock testers and vapour phase reflow soldering.",
     "NIR_BE_all": ""
   },
   {
@@ -492,7 +553,8 @@
     "name": "Product Uses as Substitutes for ODS",
     "parent": "2",
     "value": 2848.55881,
-    "category_full": "2.F - Product Uses as Substitutes for ODS",
+    "CRF_full": "2.F - Product Uses as Substitutes for ODS",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -500,7 +562,8 @@
     "name": "Refrigeration and Air conditioning",
     "parent": "2.F",
     "value": 2702.342,
-    "category_full": "2.F.1 - Refrigeration and Air conditioning",
+    "CRF_full": "2.F.1 - Refrigeration and Air conditioning",
+    "CRF_description": "Refrigeration and air-conditioning systems are usually classified in six application domains or categories. These categories utilise different technologies such as heat exchangers, expansion devices, pipings and compressors. The six application domains are domestic refrigeration, commercial refrigeration, industrial processes, transport refrigeration, stationary air conditioning, mobile air- conditioning systems. For all these applications, various HFCs are selectively replacing CFCs and HCFCs. For example, in developed countries, HFC-134a has replaced CFC-12 in domestic refrigeration and mobile air conditioning systems, and blends of HFCs such as R-407C (HFC-32/HFC-125/HFC-134a) and R-410A (HFC-32/HFC- 125) are replacing HCFC-22 mainly in stationary air conditioning. Other, non HFC substances are used to replace CFCs and HCFCs such as iso-butane in domestic refrigeration or ammonia in industrial refrigeration. HFC- 152a is also being considered for mobile air conditioning in several regions.",
     "NIR_BE_all": ""
   },
   {
@@ -508,7 +571,8 @@
     "name": "Foam Blowing Agents",
     "parent": "2.F",
     "value": 54.08764,
-    "category_full": "2.F.2 - Foam Blowing Agents",
+    "CRF_full": "2.F.2 - Foam Blowing Agents",
+    "CRF_description": "HFCs are being used as replacements for CFCs and HCFCs in foams, particularly in closed-cell insulation applications. Compounds that are being used include HFC- 245fa, HFC-365mfc, HFC-227ea, HFC-134a, and HFC- 152a. The processes and applications for which these various HFCs are being used include insulation boards and panels, pipe sections, sprayed systems and one- component gap filling foams. For open-cell foams, such as integral skin products for automotive steering wheels and facias, emissions of HFCs used as blowing agents are likely to occur during the manufacturing process. In closed- cell foam, emissions not only occur during the manufacturing phase, but usually extend into the in-use phase and often the majority of emission occurs at the end- of-life (de-commissioning losses). Accordingly, emissions can occur over a period of up to 50 years or even longer.",
     "NIR_BE_all": ""
   },
   {
@@ -516,7 +580,8 @@
     "name": "Fire Protection",
     "parent": "2.F",
     "value": 12.03446,
-    "category_full": "2.F.3 - Fire Protection",
+    "CRF_full": "2.F.3 - Fire Protection",
+    "CRF_description": "There are two general types of fire protection (fire suppression) equipment that use greenhouse gases as partial replacements for halons: portable (streaming) equipment, and fixed (flooding) equipment. The non-ozone depleting, industrial gases HFCs, PFCs and more recently a fluoroketone are mainly used as substitutes for halons, typically halon 1301, in flooding equipment. PFCs played an early role in halon 1301 replacement but current use is limited to replenishment of previously installed systems. HFCs in portable equipment, typically replacing halon 1211, are available but have achieved very limited market acceptance due primarily to their high cost. PFC use in new portable extinguishers is currently limited to a small amount (few percent) in an HCFC blend.",
     "NIR_BE_all": ""
   },
   {
@@ -524,7 +589,8 @@
     "name": "Aerosols",
     "parent": "2.F",
     "value": 80.09471,
-    "category_full": "2.F.4 - Aerosols",
+    "CRF_full": "2.F.4 - Aerosols",
+    "CRF_description": "Most aerosol packages now contain hydrocarbon (HC) as propellants but, in a small fraction of the total, HFCs and PFCs may be used as propellants or solvents. Emissions from aerosols usually occur shortly after production, on average six months after sale. During the use of aerosols, 100% of the chemical is emitted. The 5 main sources are metered dose inhalers (MDIs), personal care products (e.g. hair care, deodorant, shaving cream), household products (e.g. air-fresheners, oven and fabric cleaners), industrial products (e.g. special cleaning sprays such as those for operating electrical contact, lubricants, pipe-freezers) and other general products (e.g. silly string, tire inflators, claxons), although in some regions the use of such general products is restricted. The HFCs currently used as propellants are HFC 134a, HFC 227ea, and HFC 152a. The substance HFC 43 10mee and a PFC, perfluorohexane, are used as solvents in industrial aerosol products.",
     "NIR_BE_all": ""
   },
   {
@@ -532,7 +598,8 @@
     "name": "Other Product Manufacture and Use",
     "parent": "2",
     "value": 148.28408,
-    "category_full": "2.G - Other Product Manufacture and Use",
+    "CRF_full": "2.G - Other Product Manufacture and Use",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -540,7 +607,8 @@
     "name": "Other Industrial Process and Product Use",
     "parent": "2",
     "value": 24.41256,
-    "category_full": "2.H - Other Industrial Process and Product Use",
+    "CRF_full": "2.H - Other Industrial Process and Product Use",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -548,7 +616,8 @@
     "name": "Enteric Fermentation",
     "parent": "3.1",
     "value": 4558.37398,
-    "category_full": "3.A - Enteric Fermentation",
+    "CRF_full": "3.A - Enteric Fermentation",
+    "CRF_description": "Methane emissions from enteric fermentation, and methane and nitrous oxide emissions from manure management.",
     "NIR_BE_all": ""
   },
   {
@@ -556,7 +625,8 @@
     "name": "Cattle",
     "parent": "3.A",
     "value": 4252.77501,
-    "category_full": "3.A.1 - Enteric Fermentation - Cattle",
+    "CRF_full": "3.A.1 - Enteric Fermentation - Cattle",
+    "CRF_description": "Methane emissions from herbivores as a by-product of enteric fermentation (a digestive process by which carbohydrates are broken down by micro-organisms into simple molecules for absorption into the bloodstream). Ruminant animals (e.g., cattle, sheep) are major sources with moderate amounts produced from non-ruminant animals (e.g., pigs, horses).",
     "NIR_BE_all": ""
   },
   {
@@ -564,7 +634,8 @@
     "name": "Sheep",
     "parent": "3.A",
     "value": 25.99791,
-    "category_full": "3.A.2 - Enteric Fermentation - Sheep",
+    "CRF_full": "3.A.2 - Enteric Fermentation - Sheep",
+    "CRF_description": "Methane and nitrous oxide emissions from the decomposition of manure under low oxygen or anaerobic conditions. These conditions often occur when large numbers of animals are managed in a confined area (e.g. dairy farms, beef feedlots, and swine and poultry farms), where manure is typically stored in large piles or disposed of in lagoons and other types of manure management systems.",
     "NIR_BE_all": ""
   },
   {
@@ -572,7 +643,8 @@
     "name": "Swine",
     "parent": "3.A",
     "value": 237.89567,
-    "category_full": "3.A.3 - Enteric Fermentation - Swine",
+    "CRF_full": "3.A.3 - Enteric Fermentation - Swine",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -580,7 +652,8 @@
     "name": "Other livestock",
     "parent": "3.A",
     "value": 41.70539,
-    "category_full": "3.A.4 - Enteric Fermentation - Other livestock",
+    "CRF_full": "3.A.4 - Enteric Fermentation - Other livestock",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -588,7 +661,8 @@
     "name": "Manure Management",
     "parent": "3.1",
     "value": 1930.29803,
-    "category_full": "3.B - Manure Management",
+    "CRF_full": "3.B - Manure Management",
+    "CRF_description": "Emissions and removals from five land use categories (Forest land, Cropland, Grasslands, Settlements, and Other land) except for sources listed under 3C (Aggregate sources and non-CO2 emissions sources on land) . Except for Wetlands, the greenhouse gas inventory involves estimation of changes in carbon stock from five carbon pools (i.e. aboveground biomass, belowground biomass, dead wood, litter, and soil organic matter), as appropriate.",
     "NIR_BE_all": ""
   },
   {
@@ -596,7 +670,8 @@
     "name": "Cattle",
     "parent": "3.B",
     "value": 943.259,
-    "category_full": "3.B.1 - Manure Management - Cattle",
+    "CRF_full": "3.B.1 - Manure Management - Cattle",
+    "CRF_description": "Emissions and removals from lands with woody vegetation consistent with thresholds used to define forest land in the national GHG inventory, sub-divided into managed and unmanaged, and possibly also by climatic region, soil type and vegetation type as appropriate. It also includes systems with vegetation that currently fall below, but are expected to later exceed, the threshold values used by a country to define the forest land category.",
     "NIR_BE_all": ""
   },
   {
@@ -604,7 +679,8 @@
     "name": "Sheep",
     "parent": "3.B",
     "value": 1.32896,
-    "category_full": "3.B.2 - Manure Management - Sheep",
+    "CRF_full": "3.B.2 - Manure Management - Sheep",
+    "CRF_description": "Emissions and removals from arable and tillage land, rice fields, and agro-forestry systems where vegetation falls below the thresholds used for the forest land category.",
     "NIR_BE_all": ""
   },
   {
@@ -612,7 +688,8 @@
     "name": "Swine",
     "parent": "3.B",
     "value": 765.39613,
-    "category_full": "3.B.3 - Manure Management - Swine",
+    "CRF_full": "3.B.3 - Manure Management - Swine",
+    "CRF_description": "Emissions and removals from rangelands and pasture land that is not considered cropland. It also includes systems with woody vegetation that fall below the threshold values used in the forest land category and are not expected to exceed them, without human intervention. The category also includes all grassland from wild lands to recreational areas as well as agricultural and silvi-pastural systems, subdivided into managed and unmanaged, consistent with national definitions.",
     "NIR_BE_all": ""
   },
   {
@@ -620,7 +697,8 @@
     "name": "Other livestock",
     "parent": "3.B",
     "value": 49.07216,
-    "category_full": "3.B.4 - Manure Management - Other livestock",
+    "CRF_full": "3.B.4 - Manure Management - Other livestock",
+    "CRF_description": "Emissions from land that is covered or saturated by water for all or part of the year (e.g., peatland) and that does not fall into the forest land, cropland, grassland or settlements categories. The category can be subdivided into managed and unmanaged according to national definitions. It includes reservoirs as a managed sub-division and natural rivers and lakes as unmanaged sub-divisions.",
     "NIR_BE_all": ""
   },
   {
@@ -628,7 +706,8 @@
     "name": "Indirect N2O Emissions",
     "parent": "3.B",
     "value": 171.24178,
-    "category_full": "3.B.5 - Manure Management - Indirect N2O Emissions",
+    "CRF_full": "3.B.5 - Manure Management - Indirect N2O Emissions",
+    "CRF_description": "Emissions and removals from all developed land, including transportation infrastructure and human settlements of any size, unless they are already included under other categories. This should be consistent with national definitions.",
     "NIR_BE_all": ""
   },
   {
@@ -636,7 +715,8 @@
     "name": "Agricultural Soils",
     "parent": "3",
     "value": 3281.73609,
-    "category_full": "3.D - Agricultural Soils",
+    "CRF_full": "3.D - Agricultural Soils",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -644,7 +724,8 @@
     "name": "Direct N2O emissions from managed soils",
     "parent": "3.D",
     "value": 2588.62335,
-    "category_full": "3.D.1 - Direct N2O emissions from managed soils",
+    "CRF_full": "3.D.1 - Direct N2O emissions from managed soils",
+    "CRF_description": "CO 2 net emissions or removals resulting from Harvest Wood Products.",
     "NIR_BE_all": ""
   },
   {
@@ -652,7 +733,8 @@
     "name": "Indirect N2O emissions from managed soils",
     "parent": "3.D",
     "value": 693.11274,
-    "category_full": "3.D.2 - Indirect N2O emissions from managed soils",
+    "CRF_full": "3.D.2 - Indirect N2O emissions from managed soils",
+    "CRF_description": "0",
     "NIR_BE_all": ""
   },
   {
@@ -660,7 +742,8 @@
     "name": "Liming",
     "parent": "3",
     "value": 137.76022,
-    "category_full": "3.G - Liming",
+    "CRF_full": "3.G - Liming",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -668,7 +751,8 @@
     "name": "Urea Application",
     "parent": "3",
     "value": 52.70908,
-    "category_full": "3.H - Urea Application",
+    "CRF_full": "3.H - Urea Application",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -676,7 +760,8 @@
     "name": "Solid Waste Disposal",
     "parent": "5",
     "value": 772.29909,
-    "category_full": "5.A - Solid Waste Disposal",
+    "CRF_full": "5.A - Solid Waste Disposal",
+    "CRF_description": "Excluding indirect emissions from NO x and NH 3 in agriculture which are reported in 3C5 & 3C6.",
     "NIR_BE_all": ""
   },
   {
@@ -684,7 +769,8 @@
     "name": "Managed Waste Disposal Sites",
     "parent": "5.A",
     "value": 772.29909,
-    "category_full": "5.A.1 - Managed Waste Disposal Sites",
+    "CRF_full": "5.A.1 - Managed Waste Disposal Sites",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -692,7 +778,8 @@
     "name": "Biological Treatment of Solid Waste",
     "parent": "5",
     "value": 41.03765,
-    "category_full": "5.B - Biological Treatment of Solid Waste",
+    "CRF_full": "5.B - Biological Treatment of Solid Waste",
+    "CRF_description": "Only use this category exceptionally, for any categories than cannot be accommodated in the categories described above. Include a reference to where a detailed explanation of the category can be found.",
     "NIR_BE_all": ""
   },
   {
@@ -700,7 +787,8 @@
     "name": "Waste Composting",
     "parent": "5.B",
     "value": 41.03765,
-    "category_full": "5.B.1 - Waste Composting",
+    "CRF_full": "5.B.1 - Waste Composting",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -708,7 +796,8 @@
     "name": "Incineration and Open Burning of Waste",
     "parent": "5",
     "value": 284.42084,
-    "category_full": "5.C - Incineration and Open Burning of Waste",
+    "CRF_full": "5.C - Incineration and Open Burning of Waste",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -716,7 +805,8 @@
     "name": "Waste Incineration",
     "parent": "5.C",
     "value": 284.42084,
-    "category_full": "5.C.1 - Waste Incineration",
+    "CRF_full": "5.C.1 - Waste Incineration",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -724,7 +814,8 @@
     "name": "Wastewater Treatment and Discharge",
     "parent": "5",
     "value": 282.44086,
-    "category_full": "5.D - Wastewater Treatment and Discharge",
+    "CRF_full": "5.D - Wastewater Treatment and Discharge",
+    "CRF_description": "",
     "NIR_BE_all": ""
   },
   {
@@ -732,7 +823,8 @@
     "name": "Domestic wastewater",
     "parent": "5.D",
     "value": 282.44086,
-    "category_full": "5.D.1 - Domestic wastewater",
+    "CRF_full": "5.D.1 - Domestic wastewater",
+    "CRF_description": "",
     "NIR_BE_all": ""
   }
 ]
