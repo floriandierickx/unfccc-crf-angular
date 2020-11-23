@@ -64,13 +64,23 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     var data = this.crf_data_imported.map(
-      ({ id, parent, name, value, CRF_full, CRF_description, NIR_BE_all }) => ({
+      ({
         id,
         parent,
         name,
         value,
         CRF_full,
         CRF_description,
+        share_total,
+        NIR_BE_all
+      }) => ({
+        id,
+        parent,
+        name,
+        value,
+        CRF_full,
+        CRF_description,
+        share_total,
         NIR_BE_all
       })
     );
@@ -95,8 +105,9 @@ export class AppComponent implements OnInit {
         text: "Belgian Territorial Emissions 2018"
       },
       subtitle: {
+        useHTML: true,
         text:
-          'Source: <href="https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-16">EEA</a>, adapted from UNFCCC CRF 2020'
+          '2020 BE emissions (without LULUCF): 118 455.7 Gg/kt CO2eq<br>Source: <href="https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-16">EEA</a>, adapted from UNFCCC CRF 2020'
       },
       credits: {
         enabled: false
@@ -105,7 +116,7 @@ export class AppComponent implements OnInit {
         useHTML: true,
         headerFormat: "",
         pointFormat:
-          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category Number</u>: {point.CRF_full}<br><u>UNFCCC CRF Category Description</u>: {point.CRF_description}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
+          "<b>{point.name}</b> 2018 emissions were <b>{point.value:,.2f} Gg/kt CO2eq</b><br>This represents <b>{point.share_total:.2f} %</b> of total emissions in Belgium (without LULUCF and international bunkers)<br><br><u>UNFCCC CRF Category Number</u>: {point.CRF_full}<br><u>UNFCCC CRF Category Description</u>: {point.CRF_description}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
       },
       series: [
         {

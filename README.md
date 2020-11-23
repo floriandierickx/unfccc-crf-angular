@@ -1,6 +1,6 @@
 # UNFCCC CRF National Emission Inventory Sunbursts using Angular & Highcharts
 
-Purpose of this repository: dreating (possibly interactive) sunburst graphs with national UNFCCC CRF emission data, using Angular and (at the moment) Highcharts visualisation library.
+Purpose of this repository: creating (preferably interactive) sunburst/timeline graphs with national territorial UNFCCC CRF emission data (+energy production/use, consumption-based emission data, ...), using Angular and (at the moment) the Highcharts visualisation library.
 
 - Application development url: https://codesandbox.io/s/github/floriandierickx/unfccc-crf-angular
 
@@ -22,8 +22,8 @@ Purpose of this repository: dreating (possibly interactive) sunburst graphs with
 ## To do:
 
 - [ ] Add data wrangling info (preferably code) : https://github.com/floriandierickx/unfccc-crf-angular/issues/5
-- [ ] Use all-country all-years EEA dataset and create country- and year-filter feature https://github.com/floriandierickx/unfccc-crf-angular/issues/2
-- [ ] Add line graph with historical emissions per main category https://github.com/floriandierickx/unfccc-crf-angular/issues/3
+- [ ] Use all-country (if possible) all-years EEA dataset and create country- and year-filter feature https://github.com/floriandierickx/unfccc-crf-angular/issues/2
+- [ ] Add line graph with historical emissions per main category and subcategories https://github.com/floriandierickx/unfccc-crf-angular/issues/3
 - [ ] Add energy production and energy use sunbursts https://github.com/floriandierickx/unfccc-crf-angular/issues/4
 - [ ] Add consumption-based emissions for comparison https://github.com/floriandierickx/unfccc-crf-angular/issues/7
 
@@ -33,9 +33,9 @@ Purpose of this repository: dreating (possibly interactive) sunburst graphs with
 
 - Hierarchical UNFCCC CRF data provided by EEA: https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-16
 - UNFCCC CRF category defitions from Johannes Gütschow: https://twitter.com/JoGuetschow/status/1330854682743484419?s=20
-- Belgian National Inventory Report category information (work in progress): http://cdr.eionet.europa.eu/be/eu/mmr/art07_inventory/ghg_inventory/envxpvoyw/
+- Belgian National Inventory Report category information (addition to graph = work in progress): http://cdr.eionet.europa.eu/be/eu/mmr/art07_inventory/ghg_inventory/envxpvoyw/
 
-## Interesting for future:
+## Interesting data sources for new features:
 
 - More fine-grained breakdown of UNFCCC CRF emissions: @mikapfl and @openclimatedata (and a tiny little bit @floriandierickx :)) [read_di_unfccc](https://github.com/mikapfl/read_di_unfccc) data from UNFCCC API
 - IEA energy production and use data for energy sunbursts
@@ -45,12 +45,12 @@ Purpose of this repository: dreating (possibly interactive) sunburst graphs with
 
 ## 1. Platform
 
-- Angular highcharts project on **CodeSandBox** https://codesandbox.io/s/unfccc-crf-angular-6ks2v
+- Angular highcharts project on **CodeSandBox**: https://codesandbox.io/s/unfccc-crf-angular-n1vop
 
 ## 2. Documentation
 
-- Angular Material documentation: https://angular.io/tutorial/toh-pt0
-- **Highcharts** integration in Angular app using documentation on https://github.com/highcharts/highcharts-angular
+- Angular (Material) documentation: https://angular.io/docs
+- **Highcharts** integration in Angular: https://github.com/highcharts/highcharts-angular
 
 # Idea/inspiration
 
