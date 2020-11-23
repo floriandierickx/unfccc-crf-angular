@@ -105,7 +105,7 @@ export class AppComponent implements OnInit {
         useHTML: true,
         headerFormat: "",
         pointFormat:
-          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.CRF_full}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
+          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category Number</u>: {point.CRF_full}<br><u>UNFCCC CRF Category Description</u>: {point.CRF_description}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
       },
       series: [
         {
