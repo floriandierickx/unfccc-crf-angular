@@ -104,9 +104,8 @@ export class AppComponent implements OnInit {
       tooltip: {
         useHTML: true,
         headerFormat: "",
-        valueDecimals: 2,
         pointFormat:
-          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg/kt CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.CRF_full}<br><u>UNFCCC CRF Description</u>: {point.CRF_description}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
+          "<b>{point.name}</b> 2018 emissions were <b>{point.value} Gg CO2eq</b><br><u>UNFCCC CRF Category</u>: {point.CRF_full}<br><u>Belgian NIR Background</u>: {point.NIR_BE_all}"
       },
       series: [
         {

@@ -51,3 +51,8 @@ Purpose of this repository: dreating (possibly interactive) sunburst graphs with
 
 - Angular Material documentation: https://angular.io/tutorial/toh-pt0
 - **Highcharts** integration in Angular app using documentation on https://github.com/highcharts/highcharts-angular
+
+# Idea/inspiration
+
+- [ghg_country_selector](https://github.com/martindaniel4/ghg_country_sector) from @martindaniel4
+- @HannahRitchie and @OurWorldInData-User from @owid : https://ourworldindata.org/ghg-emissions-by-sector
