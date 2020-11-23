@@ -8,9 +8,16 @@ Purpose of this repository: dreating (possibly interactive) sunburst graphs with
 
 1. Check the [GitHub Issues](https://github.com/floriandierickx/unfccc-crf-angular/issues) for ideas or add new feature ideas
 2. Contribution:
-   a. Fork the [project on CodeSandbox](https://codesandbox.io/s/github/floriandierickx/unfccc-crf-angular)
-   b. Make edits
-   c. Do a pull request
+   - Create an account on [CodeSandbox](https://codesandbox.io/) using your GitHub account
+   - Create a Sandbox
+     - ![alt text](https://i.imgur.com/fLPiIoS.png)
+   - Import this project from GitHub using url https://github.com/floriandierickx/unfccc-crf-angular
+     - ![alt text](https://i.imgur.com/BEFjXsr.png)
+   - Log in to your GitHub account and link sandbox
+     - ![alt text](https://i.imgur.com/4Qsk5rG.png)
+   - Make edits
+   - Commit changes to a new branch (pull request)
+     - ![alt text](https://i.imgur.com/V7E3RSm.png)
 
 # Data sources
 
